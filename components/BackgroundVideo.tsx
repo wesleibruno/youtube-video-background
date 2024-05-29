@@ -1,10 +1,10 @@
-import YouTube from 'react-youtube';
+import YouTube from "react-youtube";
 
 const BackgroundVideo = ({ videoId }: { videoId: string }) => {
   const opts = {
     playerVars: {
       autoplay: 1,
-      mute: 0,
+      mute: 2,
       loop: 1,
       playlist: videoId,
     },
